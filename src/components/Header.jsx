@@ -10,6 +10,7 @@ function Header(){
     backgroundRepeat: "no-repeat",
     backgroundSize: "contain",
     padding: "32px 0px",
+    marginBottom: "32px",
     display: "flex",
     justifyContent: "center",
     flexDirection: "column"
@@ -17,7 +18,6 @@ function Header(){
   return (
     <div style={headerStyles}>
       <h1>Avery's Organics</h1>
-      <p>Avery's Organics is a mid-sized farm in Northern Oregon that grows organic produce.</p>
     </div>
   );
 }

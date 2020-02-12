@@ -1,13 +1,10 @@
 import React from "react";
-import MarketSchedule from './MarketSchedule';
-import AvailableProduce from './AvailableProduce';
 import './Body.css';
 
 function Body(){
   return (
     <div>
-      <MarketSchedule />
-      <AvailableProduce />
+      <p>Avery's Organics is a mid-sized farm in Northern Oregon that grows organic produce.</p>
     </div>
   );
 }
